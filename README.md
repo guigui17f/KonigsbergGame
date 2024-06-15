@@ -2,11 +2,11 @@
 
 几年前的个人独立游戏[《前境》](https://www.taptap.cn/app/55241)的源代码。
 
-**Unity版本：** 5.6.7
+### Unity版本：5.6.7
 
-[**PC版下载**](https://github.com/guigui17f/KonigsbergGame/releases/download/v1.3.0/Konigsberg_PC.zip)
+### [PC版下载](https://github.com/guigui17f/KonigsbergGame/releases/download/v1.3.0/Konigsberg_PC.zip)
 
-**Android打包说明：**
+### Android打包说明：
 
 看到TapTap上有部分玩家反映17年的那个版本在部分手机上不能运行，所以本来想打一个现在的Android系统能用的包，但是尝试了很久依然失败了，主要存在两个问题：
 
@@ -18,7 +18,7 @@
 
 感兴趣的朋友可以自行尝试，注意Unity5导出项目的时候Unity偏好设置里和系统环境变量里的JDK都要指向JDK1.8，更高版本的JDK会导致Unity5导出过程报错。
 
-**特别说明：**
+### 特别说明：
 
 这个游戏是我7年前做的，因为没做起来所以早就断了更新，两三年前又陆续收到各大平台的通知，说因为监管政策游戏已经被下架了，所以更加放任自流了。直到前两天想找个手游玩，又登录了TapTap，然后惊奇地发现游戏的测试版竟然还在上面挂着，而且至今还有零星的一些下载。
 
