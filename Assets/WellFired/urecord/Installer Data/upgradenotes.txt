@@ -1,0 +1,1 @@
+Nothing special. This version is the first to come bundled with the new WellFired Installer (you're using it now).

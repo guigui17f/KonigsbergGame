@@ -1,0 +1,1 @@
+Added a warning if uRecord is configured incorrectly and will not record a video.

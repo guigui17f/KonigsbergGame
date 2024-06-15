@@ -1,0 +1,333 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &112952
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 453136}
+  - component: {fileID: 11435752}
+  m_Layer: 0
+  m_Name: I2Languages
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &453136
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112952}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11435752
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 112952}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 488051eaa73ba421e8fe4868f2e0f364, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Google_WebServiceURL: 
+  Google_SpreadsheetKey: 
+  Google_SpreadsheetName: 
+  Google_LastUpdatedVersion: 
+  GoogleUpdateFrequency: 3
+  GoogleUpdateDelay: 5
+  mTerms:
+  - Term: UI/section
+    TermType: 0
+    Description: 
+    Languages:
+    - LEVEL
+    - 
+    - 
+    Languages_Touch:
+    - SECTION
+    - "\u5173\u5361"
+    - "\u95DC\u5361"
+    Flags: 000000
+  - Term: Fonts
+    TermType: 1
+    Description: 
+    Languages:
+    - msyh
+    - msyh
+    - msyh
+    Languages_Touch:
+    - 
+    - 
+    - 
+    Flags: 000000
+  - Term: UI/power
+    TermType: 0
+    Description: 
+    Languages:
+    - POWER
+    - "\u80FD\u91CF"
+    - "\u80FD\u91CF"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    Flags: 000000
+  - Term: UI/OK
+    TermType: 0
+    Description: 
+    Languages:
+    - OK
+    - "\u786E\u5B9A"
+    - "\u78BA\u8A8D"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    Flags: 000000
+  - Term: UI/cancel
+    TermType: 0
+    Description: 
+    Languages:
+    - Cancel
+    - "\u53D6\u6D88"
+    - "\u53D6\u6D88"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    Flags: 000000
+  - Term: Notice/lackofpower
+    TermType: 0
+    Description: 
+    Languages:
+    - Lake of Power
+    - "\u80FD\u91CF\u4E0D\u8DB3"
+    - "\u80FD\u91CF\u4E0D\u8DB3"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    Flags: 000000
+  - Term: Confirm/reset
+    TermType: 0
+    Description: 
+    Languages:
+    - Reset current level? Power expended will not give back.
+    - "\u662F\u5426\u91CD\u7F6E\u672C\u5173\uFF1F\u5DF2\u6D88\u8017\u7684\u80FD\u91CF\u4E0D\u4F1A\u8FD4\u8FD8\u3002"
+    - "\u662F\u5426\u91CD\u7F6E\u672C\u95DC\uFF1F\u5DF2\u6D88\u8017\u7684\u80FD\u91CF\u4E0D\u6703\u8FD4\u9084\u3002"
+    Languages_Touch:
+    - Reset current level? The count of power consumed in the level is also reset.
+    - "\u662F\u5426\u91CD\u7F6E\u672C\u5173\uFF1F\u5173\u5361\u5185\u6D88\u8017\u80FD\u91CF\u7684\u8BA1\u6570\u4E5F\u4F1A\u91CD\u7F6E\u3002"
+    - "\u662F\u5426\u91CD\u7F6E\u672C\u95DC\uFF1F\u95DC\u5361\u5167\u6D88\u8017\u80FD\u91CF\u7684\u8A08\u6578\u4E5F\u6703\u91CD\u7F6E\u3002"
+    Flags: 000000
+  - Term: Confirm/newgame
+    TermType: 0
+    Description: 
+    Languages:
+    - Start new game? All saved data will be lost.
+    - "\u662F\u5426\u5F00\u59CB\u65B0\u6E38\u620F\uFF1F\u6240\u6709\u5DF2\u4FDD\u5B58\u6570\u636E\u5C06\u88AB\u6E05\u9664\u3002"
+    - "\u662F\u5426\u958B\u59CB\u65B0\u904A\u6232\uFF1F\u6240\u6709\u5DF2\u4FDD\u5B58\u6578\u64DA\u5C07\u88AB\u6E05\u9664\u3002"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    Flags: 000000
+  - Term: Notice/captureSaved
+    TermType: 0
+    Description: 
+    Languages:
+    - Screenshot has saved to your picture gallery.
+    - "\u622A\u56FE\u5DF2\u4FDD\u5B58\u81F3\u60A8\u7684\u76F8\u518C"
+    - "\u622A\u5716\u5DF2\u4FDD\u5B58\u81F3\u60A8\u7684\u76F8\u518A"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    Flags: 000000
+  - Term: Tutorial/magic
+    TermType: 0
+    Description: 
+    Languages:
+    - cost 1 power to change a single node's color
+    - "\u6D88\u80171\u70B9\u80FD\u91CF\uFF0C\u6539\u53D8\u5355\u72EC\u4E00\u4E2A\u7ED3\u70B9\u7684\u989C\u8272"
+    - "\u6D88\u80171\u9EDE\u80FD\u91CF\uFF0C\u6539\u8B8A\u55AE\u7368\u4E00\u500B\u7D50\u9EDE\u7684\u984F\u8272"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    Flags: 000000
+  - Term: Tutorial/restart
+    TermType: 0
+    Description: 
+    Languages:
+    - restart current level
+    - "\u91CD\u73A9\u672C\u5173"
+    - "\u91CD\u73A9\u672C\u95DC"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    Flags: 000000
+  - Term: Tutorial/capture
+    TermType: 0
+    Description: 
+    Languages:
+    - capture a screenshot
+    - "\u5C4F\u5E55\u5FEB\u7167"
+    - "\u5C4F\u5E55\u5FEB\u7167"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    Flags: 000000
+  - Term: Tutorial/setting
+    TermType: 0
+    Description: 
+    Languages:
+    - game settings
+    - "\u6E38\u620F\u8BBE\u7F6E"
+    - "\u904A\u6232\u8A2D\u7F6E"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    Flags: 000000
+  - Term: Tutorial/newgame
+    TermType: 0
+    Description: 
+    Languages:
+    - start a new game
+    - "\u5F00\u59CB\u65B0\u6E38\u620F"
+    - "\u958B\u59CB\u65B0\u904A\u6232"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    Flags: 000000
+  - Term: Tutorial/main0
+    TermType: 0
+    Description: 
+    Languages:
+    - click a node to change its and all the adjoining nodes' color
+    - "\u70B9\u51FB\u4E00\u4E2A\u7ED3\u70B9\u6539\u53D8\u5B83\u548C\u6240\u6709\u90BB\u63A5\u7ED3\u70B9\u7684\u989C\u8272"
+    - "\u9EDE\u64CA\u4E00\u500B\u7D50\u9EDE\u6539\u8B8A\u5B83\u548C\u6240\u6709\u9130\u63A5\u7D50\u9EDE\u7684\u984F\u8272"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    Flags: 000000
+  - Term: Tutorial/main1
+    TermType: 0
+    Description: 
+    Languages:
+    - the goal is to turn all red nodes into blue
+    - "\u6240\u6709\u7ED3\u70B9\u90FD\u53D8\u6210\u84DD\u8272\u540E\u8FDB\u5165\u4E0B\u4E00\u5173"
+    - "\u6240\u6709\u7D50\u9EDE\u90FD\u8B8A\u6210\u85CD\u8272\u5F8C\u9032\u5165\u4E0B\u4E00\u95DC"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    Flags: 000000
+  - Term: UI/help
+    TermType: 0
+    Description: 
+    Languages:
+    - Help
+    - "\u5E2E\u52A9"
+    - "\u5E6B\u52A9"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    Flags: 000000
+  - Term: Confirm/quit
+    TermType: 0
+    Description: 
+    Languages:
+    - Quit the game?
+    - "\u9000\u51FA\u6E38\u620F\uFF1F"
+    - "\u9000\u51FA\u904A\u6232\uFF1F"
+    Languages_Touch:
+    - 
+    - 
+    - 
+    Flags: 000000
+  - Term: Tutorial/ads
+    TermType: 0
+    Description: 
+    Languages:
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - watch a video to gain 2 extra power
+    - "\u89C2\u770B\u89C6\u9891\u83B7\u53D62\u70B9\u989D\u5916\u80FD\u91CF"
+    - "\u89C0\u770B\u8996\u983B\u7372\u53D62\u9EDE\u984D\u5916\u80FD\u91CF"
+    Flags: 000000
+  - Term: Notice/adsNotReady
+    TermType: 0
+    Description: 
+    Languages:
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - Currently there is no video available, you can try this later.
+    - "\u6682\u65E0\u53EF\u7528\u89C6\u9891\uFF0C\u60A8\u53EF\u4EE5\u7A0D\u540E\u91CD\u8BD5\u3002"
+    - "\u66AB\u7121\u53EF\u7528\u8996\u983B\uFF0C\u60A8\u53EF\u4EE5\u7A0D\u5F8C\u91CD\u8A66\u3002"
+    Flags: 000000
+  - Term: UI/costpower
+    TermType: 0
+    Description: 
+    Languages:
+    - 
+    - 
+    - 
+    Languages_Touch:
+    - COST POWER
+    - "\u5DF2\u7528\u80FD\u91CF"
+    - "\u5DF2\u7528\u80FD\u91CF"
+    Flags: 000000
+  mLanguages:
+  - Name: English
+    Code: en
+    Flags: 0
+  - Name: Chinese (Simplified)
+    Code: zh-CN
+    Flags: 0
+  - Name: Chinese (Traditional)
+    Code: zh-TW
+    Flags: 0
+  CaseInsensitiveTerms: 0
+  Assets:
+  - {fileID: 12800000, guid: dbd4a1d8cb4512f40b44ae9fb1bc019c, type: 3}
+  NeverDestroy: 1
+  UserAgreesToHaveItOnTheScene: 0
+  UserAgreesToHaveItInsideThePluginsFolder: 0
+  OnMissingTranslation: 1
+  mTerm_AppName: 
+  Spreadsheet_LocalFileName: 
+  Spreadsheet_LocalCSVSeparator: ','
+  Spreadsheet_LocalCSVEncoding: utf-8
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 112952}
+  m_IsPrefabParent: 1
